@@ -37,7 +37,7 @@ const ReminderSection = () => {
           >
             <div className="flex items-center mb-4">
               <FaFire className="text-primary-400 text-3xl mr-3 animate-spin-slow" />
-              <h3 className="text-2xl font-extrabold text-white tracking-wide">
+              <h3 className="text-xl font-extrabold text-white tracking-wide">
                 Why Code Buddy?
               </h3>
             </div>

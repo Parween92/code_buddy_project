@@ -23,18 +23,18 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <span
-              className="text-2xl font-bold text-primary-500 cursor-pointer"
+              className="text-xl lg:text-xl md:text-xl font-bold text-primary-500 cursor-pointer"
               onClick={scrollToTop}
             >
               Code Buddy
             </span>
           </div>
-          <div className="flex items-center space-x-6">
+          <div className="flex items-center space-x-6 ">
             <button
               className="text-sm text-gray-300 hover:text-primary-500 transition-colors btn-primary"
               onClick={scrollToCourses}
             >
-              Online Coding Classes
+              DevTraining
             </button>
             <button
               className="text-sm text-gray-300 hover:text-primary-500 transition-colors btn-primary"
