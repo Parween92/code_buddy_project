@@ -13,7 +13,7 @@ const SpecialOfferPopup = () => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40">
-      <div className="bg-dark-800 border-2 border-yellow-500 rounded-xl p-8 max-w-sm w-auto shadow-2xl relative">
+      <div className="bg-dark-800 border-2 border-yellow-500 rounded-xl p-4 max-w-sm w-auto shadow-2xl relative">
         <button
           className="absolute top-3 right-3 text-yellow-500 hover:text-white"
           onClick={() => setVisible(false)}

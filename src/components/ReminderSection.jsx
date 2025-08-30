@@ -9,7 +9,7 @@ const ReminderSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Reminder */}
-          <div className="bg-dark-800 rounded-xl p-6 border border-primary-500">
+          <div className="bg-dark-800 rounded-xl p-4 border border-primary-500">
             <div className="flex items-center mb-4">
               <FaBell className="text-primary-500 text-2xl mr-3" />
               <h3 className="text-xl font-bold text-white">Don't Forget!</h3>
@@ -32,7 +32,7 @@ const ReminderSection = () => {
 
           {/* Motivation  */}
           <div
-            className=" rounded-xl p-6 border-2 border-[#2563eb]  shadow-lg flex flex-col 
+            className=" rounded-xl p-4 border-2 border-[#2563eb]  shadow-lg flex flex-col 
           justify-center items-center animate-fade-in"
           >
             <div className="flex items-center mb-4">
@@ -63,7 +63,7 @@ const ReminderSection = () => {
           </div>
 
           {/* Coming Soon */}
-          <div className="bg-dark-800 rounded-xl p-6 border border-green-500">
+          <div className="bg-dark-800 rounded-xl p-4 border border-green-500">
             <div className="flex items-center mb-4">
               <FaClock className="text-green-500 text-2xl mr-3" />
               <h3 className="text-xl font-bold text-white">Coming Soon</h3>

@@ -29,7 +29,7 @@ const Navbar = () => {
               Code Buddy
             </span>
           </div>
-          <div className="flex items-center space-x-6 ">
+          <div className="flex items-center gap-2 ">
             <button
               className="text-sm text-gray-300 hover:text-primary-500 transition-colors btn-primary"
               onClick={scrollToCourses}
